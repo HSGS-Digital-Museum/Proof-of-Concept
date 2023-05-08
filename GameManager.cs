@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        totalPipes = PipesHolder.transform.childCount - 2;
+        totalPipes = PipesHolder.transform.childCount;
 
         Pipes = new GameObject[totalPipes];
 
